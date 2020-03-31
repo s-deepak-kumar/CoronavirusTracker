@@ -1,0 +1,4 @@
+rootProject.name='Coronavirus Tracker Final'
+include ':app'
+include ':countrylist'
+include ':floatingactionmenu'

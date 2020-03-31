@@ -1,0 +1,416 @@
+<resources>
+    <string name="app_name">Coronavirus Tracker</string>
+
+    <string name="country">• Countries</string>
+    <string name="action_search">Search</string>
+    <string name="search_hint">Type County Name</string>
+    <string name="title_home">Home</string>
+
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="vietnames">Viet Nam</string>
+    <string name="worldwide">World Wide</string>
+    <string name="check_connection">Please check your internet connection</string>
+
+    <!--Helpline-->
+    <string name="state0">Central Helpline</string>
+    <string name="contact0">+91&#8211;11&#8211;23978046</string>
+
+    <string name="state1">Andhra Pradesh</string>
+    <string name="contact1">0866&#8211;2410978</string>
+
+    <string name="state2">Arunachal Pradesh</string>
+    <string name="contact2">9436055743</string>
+
+    <string name="state3">Assam</string>
+    <string name="contact3">6913347770</string>
+
+    <string name="state4">Bihar</string>
+    <string name="contact4">104</string>
+
+    <string name="state5">Chhattisgarh</string>
+    <string name="contact5">104</string>
+
+    <string name="state6">Goa</string>
+    <string name="contact6">104</string>
+
+    <string name="state7">Gujarat</string>
+    <string name="contact7">104</string>
+
+    <string name="state8">Haryana</string>
+    <string name="contact8">8558893911</string>
+
+    <string name="state9">Himachal Pradesh</string>
+    <string name="contact9">104</string>
+
+    <string name="state10">Jharkhand</string>
+    <string name="contact10">104</string>
+
+    <string name="state11">Karnataka</string>
+    <string name="contact11">104</string>
+
+    <string name="state12">Kerala</string>
+    <string name="contact12">0471&#8211;2552056</string>
+
+    <string name="state13">Madhya Pradesh</string>
+    <string name="contact13">0755&#8211;2527177</string>
+
+    <string name="state14">Maharashtra</string>
+    <string name="contact14">020&#8211;26127394</string>
+
+    <string name="state15">Manipur</string>
+    <string name="contact15">3852411668</string>
+
+    <string name="state16">Meghalaya</string>
+    <string name="contact16">108</string>
+
+    <string name="state17">Mizoram</string>
+    <string name="contact17">102</string>
+
+    <string name="state18">Nagaland</string>
+    <string name="contact18">7005539653</string>
+
+    <string name="state19">Odisha</string>
+    <string name="contact19">9439994859</string>
+
+    <string name="state20">Punjab</string>
+    <string name="contact20">104</string>
+
+    <string name="state21">Rajasthan</string>
+    <string name="contact21">0141&#8211;2225624</string>
+
+    <string name="state22">Sikkim</string>
+    <string name="contact22">104</string>
+
+    <string name="state23">Tamil Nadu</string>
+    <string name="contact23">044&#8211;29510500</string>
+
+    <string name="state24">Telangana</string>
+    <string name="contact24">104</string>
+
+    <string name="state25">Tripura</string>
+    <string name="contact25">0381&#8211;2315879</string>
+
+    <string name="state26">Uttarakhand</string>
+    <string name="contact26">104</string>
+
+    <string name="state27">Uttar Pradesh</string>
+    <string name="contact27">18001805145</string>
+
+    <string name="state28">West Bengal</string>
+    <string name="contact28">1800313444222, 03323412600</string>
+
+    <string name="state29">Andaman and Nicobar Islands</string>
+    <string name="contact29">03192&#8211;232102</string>
+
+    <string name="state30">Chandigarh</string>
+    <string name="contact30">9779558282</string>
+
+    <string name="state31">Dadra and Nagar Haveli and Daman &amp; Diu</string>
+    <string name="contact31">104</string>
+
+    <string name="state32">Delhi</string>
+    <string name="contact32">011&#8211;22307145</string>
+
+    <string name="state33">Jammu &amp; Kashmir</string>
+    <string name="contact33">01912520982, 0194&#8211;2440283</string>
+
+    <string name="state34">Ladakh</string>
+    <string name="contact34">01982256462</string>
+
+    <string name="state35">Lakshadweep</string>
+    <string name="contact35">104</string>
+
+    <string name="state36">Puducherry</string>
+    <string name="contact36">104</string>
+
+    <!--Advices-->
+    <string name="advice_title1">Wash your hands frequently</string>
+    <string name="advice_desc1">Regularly and thoroughly clean your hands with an alcohol-based hand rub or wash them with soap and water.\n
+        \nWhy? Washing your hands with soap and water or using alcohol-based hand rub kills viruses that may be on your hands.</string>
+
+    <string name="advice_title2">Maintain social distancing</string>
+    <string name="advice_desc2">Maintain at least 1 metre (3 feet) distance between yourself and anyone who is coughing or sneezing.\n
+        \nWhy? When someone coughs or sneezes they spray small liquid droplets from their nose or mouth which may contain virus. If you are too close, you can breathe in the droplets, including the COVID-19 virus if the person coughing has the disease.</string>
+
+    <string name="advice_title3">Avoid touching eyes, nose and mouth</string>
+    <string name="advice_desc3">Why? Hands touch many surfaces and can pick up viruses. Once contaminated, hands can transfer the virus to your eyes, nose or mouth. From there, the virus can enter your body and can make you sick.</string>
+
+    <string name="advice_title4">Practice respiratory hygiene</string>
+    <string name="advice_desc4">Make sure you, and the people around you, follow good respiratory hygiene. This means covering your mouth and nose with your bent elbow or tissue when you cough or sneeze. Then dispose of the used tissue immediately.\n
+        \nWhy? Droplets spread virus. By following good respiratory hygiene you protect the people around you from viruses such as cold, flu and COVID-19.</string>
+
+    <string name="advice_title5">If you have fever, cough and difficulty breathing, seek medical care early</string>
+    <string name="advice_desc5">Stay home if you feel unwell. If you have a fever, cough and difficulty breathing, seek medical attention and call in advance. Follow the directions of your local health authority.\n
+        \nWhy? National and local authorities will have the most up to date information on the situation in your area. Calling in advance will allow your health care provider to quickly direct you to the right health facility. This will also protect you and help prevent spread of viruses and other infections.</string>
+
+    <string name="advice_title6">Stay informed and follow advice given by your healthcare provider</string>
+    <string name="advice_desc6">Stay informed on the latest developments about COVID-19. Follow advice given by your healthcare provider, your national and local public health authority or your employer on how to protect yourself and others from COVID-19.\n
+        \nWhy? National and local authorities will have the most up to date information on whether COVID-19 is spreading in your area. They are best placed to advise on what people in your area should be doing to protect themselves.</string>
+
+    <string name="advice_title7">Protection measures for persons who are in or have recently visited (past 14 days) areas where COVID-19 is spreading</string>
+    <string name="advice_desc7">• Follow the guidance outlined above.\n
+\n• Stay at home if you begin to feel unwell, even with mild symptoms such as headache and slight runny nose, until you recover. Why? Avoiding contact with others and visits to medical facilities will allow these facilities to operate more effectively and help protect you and others from possible COVID-19 and other viruses.\n
+\n• If you develop fever, cough and difficulty breathing, seek medical advice promptly as this may be due to a respiratory infection or other serious condition. Call in advance and tell your provider of any recent travel or contact with travelers. Why? Calling in advance will allow your health care provider to quickly direct you to the right health facility. This will also help to prevent possible spread of COVID-19 and other viruses.</string>
+
+    <!--Hindi-->
+    <string name="hindi_advice_title1">बार-बार हाथ धोएं</string>
+    <string name="hindi_advice_desc1">अपने हाथों को अल्कोहल-आधारित हाथ से नियमित रूप से और अच्छी तरह से साफ करें या उन्हें साबुन और पानी से धोएं।\n
+        \nक्यों? अपने हाथों को साबुन और पानी से धोना या अल्कोहल-आधारित हाथ रगड़ना उन वायरस को मारता है जो आपके हाथों पर हो सकते हैं।</string>
+
+    <string name="hindi_advice_title2">सामाज से दूरी बनाए रखें</string>
+    <string name="hindi_advice_desc2">कम से कम 1 मीटर (3 फीट) की दूरी पर अपने आप को और किसी को भी, जो खांस रहा है या छींक रहा है, के बीच दूरी बनाए रखें।\n
+        \nक्यों? जब किसी को खांसी या छींक आती है तो वे अपनी नाक या मुंह से छोटी तरल बूंदें छिड़कते हैं जिनमें वायरस हो सकता है। यदि आप उसके बहुत करीब हैं, तो आप सांस के द्वारा उस तरल बून्द को अपने अंदर ले सकते हैं, जिसमें COVID-19 वायरस भी शामिल हो सकता है, यदि खांसी करने वाले व्यक्ति को यह बीमारी हो।</string>
+
+    <string name="hindi_advice_title3">आंखों, नाक और मुंह को छूने से बचें</string>
+    <string name="hindi_advice_desc3">क्यों? हाथ कई सतहों को छूते हैं और वायरस उठा सकते हैं। एक बार दूषित होने पर, हाथ वायरस को आपकी आंखों, नाक या मुंह में स्थानांतरित कर सकते हैं। वहां से, वायरस आपके शरीर में प्रवेश कर सकता है और आपको बीमार कर सकता है।</string>
+
+    <string name="hindi_advice_title4">श्वसन स्वच्छता का अभ्यास करें</string>
+    <string name="hindi_advice_desc4">सुनिश्चित करें कि आप, और आपके आस-पास के लोग, अच्छी श्वसन स्वच्छता का पालन करें। इसका मतलब है खांसी या छींक आने पर अपनी मुड़ी हुई कोहनी या टिशू से अपने मुंह और नाक को ढंकना। फिर इस्तेमाल किए गए ऊतक का तुरंत निपटान करें।\n
+        \nक्यों? बूंदों से वायरस फैलता है। अच्छी श्वसन स्वच्छता का पालन करके आप अपने आसपास के लोगों को सर्दी, फ्लू और COVID​​-19 जैसे वायरस से बचा सकते हैं।</string>
+
+    <string name="hindi_advice_title5">यदि आपको बुखार, खांसी और सांस लेने में कठिनाई है, तो जल्द ही चिकित्सक से सम्पर्क करें</string>
+    <string name="hindi_advice_desc5">यदि आप अस्वस्थ महसूस करते हैं तो घर पर रहें। यदि आपको बुखार, खांसी और सांस लेने में कठिनाई है, तो सबसे पहले चिकित्सक से सम्पर्क करें (फ़ोन पर )। अपने स्थानीय स्वास्थ्य प्राधिकरण के निर्देशों का पालन करें।\n
+        \nक्यों? आपके क्षेत्र की स्थिति की जानकारी के लिए राष्ट्रीय और स्थानीय अधिकारियों के पास सबसे अधिक जानकारी होगी। अग्रिम में कॉल करने से आपका स्वास्थ्य देखभाल प्रदाता आपको जल्दी से सही स्वास्थ्य सुविधा के लिए निर्देशित कर सकेगा। यह आपकी रक्षा भी करेगा और वायरस और अन्य संक्रमणों को फैलने से रोकने में मदद करेगा।</string>
+
+    <string name="hindi_advice_title6">सूचित रहें और अपने स्वास्थ्य सेवा प्रदाता द्वारा दी गई सलाह का पालन करें</string>
+    <string name="hindi_advice_desc6">COVID-19 के बारे में नवीनतम घटनाओं से अवगत रहें। अपने स्वास्थ्य सेवा प्रदाता, अपने राष्ट्रीय और स्थानीय सार्वजनिक स्वास्थ्य प्राधिकरण या अपने नियोक्ता को COVID-19 से कैसे और कैसे बचाएं, इस पर दी गई सलाह का पालन करें।\n
+        \nक्यों? आपके क्षेत्र में COVID-19 फैल रहा है या नहीं, इस पर राष्ट्रीय और स्थानीय अधिकारियों को सबसे अधिक जानकारी होगी। उन्हें इस बात की सलाह देने के लिए सर्वोत्तम स्थान दिया गया है कि आपके क्षेत्र के लोगों को अपनी सुरक्षा के लिए क्या करना चाहिए।</string>
+
+    <string name="hindi_advice_title7">उन लोगों के लिए सुरक्षा उपाय जो हाल ही में (पिछले 14 दिनों के) क्षेत्रों में गए हैं, जहाँ COVID-19 फैल रहा है</string>
+    <string name="hindi_advice_desc7">• ऊपर उल्लिखित मार्गदर्शन का पालन करें।\n
+\n• यदि आप ठीक महसूस न कर रहे हो, तो घर पर ही रहें, जब तक कि हल्के लक्षण जैसे सिरदर्द और हल्की नाक बहना शुरू न हो जाएं। क्यों? दूसरों के साथ संपर्क से बचने और चिकित्सा सुविधाओं का दौरा करने से ये सुविधाएं अधिक प्रभावी ढंग से संचालित हो सकेंगी और आपको और अन्य को संभव COVID-19 और अन्य वायरस से बचाने में मदद मिलेगी।\n
+\n• यदि आपको बुखार, खांसी और सांस लेने में कठिनाई होती है, तो तुरंत चिकित्सीय सलाह लें क्योंकि यह श्वसन संक्रमण या अन्य गंभीर स्थिति के कारण हो सकता है। अग्रिम में चिकित्सक को कॉल करें और यदि हालही में आप यात्रा किये हो या किसी यात्री से मिले हो तो उन्हें बताये। क्यों? अग्रिम में कॉल करने से आपका स्वास्थ्य देखभाल प्रदाता आपको जल्दी से सही स्वास्थ्य सुविधा के लिए निर्देशित कर सकेगा। यह COVID-19 और अन्य वायरस के संभावित प्रसार को रोकने में भी मदद करेगा।</string>
+
+    <!--Myth Busters-->
+
+    <string name="myth_title1">COVID-19 virus can be transmitted in areas with hot and humid climates</string>
+    <string name="myth_desc1">From the evidence so far, the COVID-19 virus can be transmitted in ALL AREAS, including areas with hot and humid weather. Regardless of climate, adopt protective measures if you live in, or travel to an area reporting COVID-19. The best way to protect yourself against COVID-19 is by frequently cleaning your hands. By doing this you eliminate viruses that may be on your hands and avoid infection that could occur by then touching your eyes, mouth, and nose.</string>
+
+    <string name="myth_title2">Cold weather and snow CANNOT kill the new coronavirus.</string>
+    <string name="myth_desc2">There is no reason to believe that cold weather can kill the new coronavirus or other diseases. The normal human body temperature remains around 36.5°C to 37°C, regardless of the external temperature or weather. The most effective way to protect yourself against the new coronavirus is by frequently cleaning your hands with alcohol-based hand rub or washing them with soap and water.</string>
+
+    <string name="myth_title3">Taking a hot bath does not prevent the new coronavirus disease</string>
+    <string name="myth_desc3">Taking a hot bath will not prevent you from catching COVID-19. Your normal body temperature remains around 36.5°C to 37°C, regardless of the temperature of your bath or shower. Actually, taking a hot bath with extremely hot water can be harmful, as it can burn you. The best way to protect yourself against COVID-19 is by frequently cleaning your hands. By doing this you eliminate viruses that may be on your hands and avoid infection that could occur by then touching your eyes, mouth, and nose.</string>
+
+    <string name="myth_title4">The new coronavirus CANNOT be transmitted through mosquito bites.</string>
+    <string name="myth_desc4">To date there has been no information nor evidence to suggest that the new coronavirus could be transmitted by mosquitoes. The new coronavirus is a respiratory virus which spreads primarily through droplets generated when an infected person coughs or sneezes, or through droplets of saliva or discharge from the nose. To protect yourself, clean your hands frequently with an alcohol-based hand rub or wash them with soap and water. Also, avoid close contact with anyone who is coughing and sneezing.</string>
+
+    <string name="myth_title5">Are hand dryers effective in killing the new coronavirus?</string>
+    <string name="myth_desc5">No. Hand dryers are not effective in killing the 2019-nCoV. To protect yourself against the new coronavirus, you should frequently clean your hands with an alcohol-based hand rub or wash them with soap and water. Once your hands are cleaned, you should dry them thoroughly by using paper towels or a warm air dryer.</string>
+
+    <string name="myth_title6">Can an ultraviolet disinfection lamp kill the new coronavirus?</string>
+    <string name="myth_desc6">UV lamps should not be used to sterilize hands or other areas of skin as UV radiation can cause skin irritation.</string>
+
+    <string name="myth_title7">How effective are thermal scanners in detecting people infected with the new coronavirus?</string>
+    <string name="myth_desc7">Thermal scanners are effective in detecting people who have developed a fever (i.e. have a higher than normal body temperature) because of infection with the new coronavirus.\n
+        \nHowever, they cannot detect people who are infected but are not yet sick with fever. This is because it takes between 2 and 10 days before people who are infected become sick and develop a fever.</string>
+
+    <string name="myth_title8">Can spraying alcohol or chlorine all over your body kill the new coronavirus?</string>
+    <string name="myth_desc8">No. Spraying alcohol or chlorine all over your body will not kill viruses that have already entered your body. Spraying such substances can be harmful to clothes or mucous membranes (i.e. eyes, mouth). Be aware that both alcohol and chlorine can be useful to disinfect surfaces, but they need to be used under appropriate recommendations.</string>
+
+    <string name="myth_title9">Do vaccines against pneumonia protect you against the new coronavirus?</string>
+    <string name="myth_desc9">No. Vaccines against pneumonia, such as pneumococcal vaccine and Haemophilus influenza type B (Hib) vaccine, do not provide protection against the new coronavirus.\n
+        \nThe virus is so new and different that it needs its own vaccine. Researchers are trying to develop a vaccine against 2019-nCoV, and WHO is supporting their efforts.\n
+        \nAlthough these vaccines are not effective against 2019-nCoV, vaccination against respiratory illnesses is highly recommended to protect your health.</string>
+
+    <string name="myth_title10">Can regularly rinsing your nose with saline help prevent infection with the new coronavirus?</string>
+    <string name="myth_desc10">No. There is no evidence that regularly rinsing the nose with saline has protected people from infection with the new coronavirus.\n
+        \nThere is some limited evidence that regularly rinsing nose with saline can help people recover more quickly from the common cold. However, regularly rinsing the nose has not been shown to prevent respiratory infections.</string>
+
+    <string name="myth_title11">Can eating garlic help prevent infection with the new coronavirus?</string>
+    <string name="myth_desc11">Garlic is a healthy food that may have some antimicrobial properties. However, there is no evidence from the current outbreak that eating garlic has protected people from the new coronavirus.</string>
+
+    <string name="myth_title12">Does the new coronavirus affect older people, or are younger people also susceptible?</string>
+    <string name="myth_desc12">People of all ages can be infected by the new coronavirus (2019-nCoV). Older people, and people with pre-existing medical conditions (such as asthma, diabetes, heart disease) appear to be more vulnerable to becoming severely ill with the virus.\n
+        \nWHO advises people of all ages to take steps to protect themselves from the virus, for example by following good hand hygiene and good respiratory hygiene.</string>
+
+    <string name="myth_title13">Are antibiotics effective in preventing and treating the new coronavirus?</string>
+    <string name="myth_desc13">No, antibiotics do not work against viruses, only bacteria.\n
+        \nThe new coronavirus (2019-nCoV) is a virus and, therefore, antibiotics should not be used as a means of prevention or treatment.\n
+        \nHowever, if you are hospitalized for the 2019-nCoV, you may receive antibiotics because bacterial co-infection is possible.</string>
+
+    <string name="myth_title14">Are there any specific medicines to prevent or treat the new coronavirus?</string>
+    <string name="myth_desc14">To date, there is no specific medicine recommended to prevent or treat the new coronavirus (2019-nCoV).\n
+        \nHowever, those infected with the virus should receive appropriate care to relieve and treat symptoms, and those with severe illness should receive optimized supportive care. Some specific treatments are under investigation, and will be tested through clinical trials. WHO is helping to accelerate research and development efforts with a range or partners.</string>
+
+
+    <string name="hindi_myth_title1">COVID-19 वायरस गर्म और आर्द्र जलवायु वाले क्षेत्रों में प्रेषित किया जा सकता है</string>
+    <string name="hindi_myth_desc1">अब तक के सबूतों से, COVID-19 वायरस को गर्म और आर्द्र मौसम वाले क्षेत्रों सहित सभी क्षेत्रों में प्रेषित किया जा सकता है। जलवायु के बावजूद, यदि आप रहते हैं, या COVID-19 की रिपोर्ट करने वाले क्षेत्र में जाते हैं, तो सुरक्षात्मक उपाय अपनाएं। COVID-19 के खिलाफ खुद को बचाने का सबसे अच्छा तरीका है अक्सर अपने हाथों की सफाई करना। ऐसा करने से आप अपने हाथों पर लगने वाले वायरस को खत्म कर सकते हैं और संक्रमण से बच सकते हैं जो तब तक आपकी आंखों, मुंह और नाक को छू सकता है।</string>
+
+    <string name="hindi_myth_title2">ठंड का मौसम और बर्फ नए कोरोनावायरस को नहीं मार सकते</string>
+    <string name="hindi_myth_desc2">यह मानने का कोई कारण नहीं है कि ठंड का मौसम नए कोरोनावायरस या अन्य बीमारियों को मार सकता है। बाहरी तापमान या मौसम की परवाह किए बिना, सामान्य मानव शरीर का तापमान लगभग 36.5 ° C से 37 ° C तक रहता है। नए कोरोनावायरस के खिलाफ खुद को बचाने के लिए सबसे प्रभावी तरीका अलकोहल पर आधारित सैनिटाइजर से हाथ रगड़ना या साबुन और पानी से धोना है।</string>
+
+    <string name="hindi_myth_title3">गर्म पानी के साथ स्नान करने से नए कोरोनावायरस रोग की रोकथाम नहीं होती है</string>
+    <string name="hindi_myth_desc3">गर्म पानी के साथ स्नान करने से आप COVID-19 को पकड़ने से नहीं रोक पाएंगे। आपके स्नान या शॉवर के तापमान की परवाह किए बिना आपके शरीर का सामान्य तापमान लगभग 36.5 ° C से 37 ° C तक रहता है। दरअसल, बेहद गर्म पानी से नहाना हानिकारक हो सकता है, क्योंकि यह आपको जला सकता है। COVID-19 के खिलाफ खुद को बचाने का सबसे अच्छा तरीका है अक्सर अपने हाथों की सफाई करना। ऐसा करने से आप अपने हाथों पर लगने वाले वायरस को खत्म कर सकते हैं और संक्रमण से बच सकते हैं जो तब तक आपकी आंखों, मुंह और नाक को अक्सर छूता रहता है।</string>
+
+    <string name="hindi_myth_title4">नए कोरोनावायरस को मच्छर के काटने के माध्यम से प्रेषित नहीं किया जा सकता है।</string>
+    <string name="hindi_myth_desc4">आज तक इस बात की कोई जानकारी नहीं है और न ही इस बात का कोई सबूत है कि नए कोरोनोवायरस को मच्छरों द्वारा प्रेषित किया जा सकता है। नया कोरोनावायरस एक श्वसन वायरस है जो मुख्य रूप से उत्पन्न बूंदों के माध्यम से फैलता है जब एक संक्रमित व्यक्ति खांसता या छींकता है, तो लार की बूंदों के माध्यम से या नाक से निर्वहन करता है। अपने आप को बचाने के लिए, अपने हाथों को बार-बार अल्कोहल-आधारित सैनिटाइजर से हाथ रगड़ कर साफ करें या साबुन और पानी से धोएं। इसके अलावा, खांसी और छींकने वाले किसी भी व्यक्ति के साथ निकटतम संपर्क से बचें।</string>
+
+    <string name="hindi_myth_title5">क्या नए कोरोनोवायरस को मारने में हाथ सुखाने वाले प्रभावी हैं?</string>
+    <string name="hindi_myth_desc5">नहीं, 2019-nCoV को मारने में हैंड ड्रायर्स कारगर नहीं हैं। नए कोरोनावायरस के खिलाफ खुद को बचाने के लिए, आपको अक्सर अपने हाथों को अल्कोहल-आधारित सैनिटाइजर से हाथ रगड़कर साफ करना चाहिए या साबुन और पानी से धोना चाहिए। एक बार जब आपके हाथ साफ हो जाते हैं, तो आपको कागज़ के तौलिये या गर्म हवा के ड्रायर का उपयोग करके उन्हें अच्छी तरह से सुखाना चाहिए।</string>
+
+    <string name="hindi_myth_title6">क्या एक पराबैंगनी कीटाणुशोधन लैंप नए कोरोनोवायरस को मार सकता है?</string>
+    <string name="hindi_myth_desc6">UV लैंप का उपयोग हाथों या त्वचा के अन्य क्षेत्रों को निष्फल करने के लिए नहीं किया जाना चाहिए क्योंकि यूवी विकिरण त्वचा में जलन पैदा कर सकता है।</string>
+
+    <string name="hindi_myth_title7">नए कोरोनावायरस से संक्रमित लोगों का पता लगाने में थर्मल स्कैनर कितने प्रभावी हैं?</string>
+    <string name="hindi_myth_desc7">थर्मल स्कैनर्स उन लोगों का पता लगाने में प्रभावी हैं, जिन्होंने नए कोरोनोवायरस के संक्रमण के कारण बुखार (यानी शरीर के सामान्य तापमान से अधिक है) हुआ है।\n
+        \nहालांकि, वे उन लोगों का पता नहीं लगा सकते जो संक्रमित हैं लेकिन अभी तक बुखार से बीमार नहीं हैं। ऐसा इसलिए है क्योंकि संक्रमित लोगों के बीमार होने और बुखार होने में 2 से 10 दिन भी लग जाते हैं।</string>
+
+    <string name="hindi_myth_title8">क्या आपके शरीर पर अल्कोहल या क्लोरीन का छिड़काव नए कोरोनावायरस को मार सकता है?</string>
+    <string name="hindi_myth_desc8">नहीं, आपके शरीर पर अल्कोहल या क्लोरीन का छिड़काव करने से आपके शरीर में पहले से मौजूद वायरस नहीं मरेंगे। ऐसे पदार्थों का छिड़काव कपड़े या श्लेष्मा झिल्ली (यानी आंख, मुंह) के लिए हानिकारक हो सकता है। ज्ञात रहे कि अल्कोहल और क्लोरीन दोनों ही कीटाणुरहित सतहों के लिए उपयोगी हो सकते हैं, लेकिन उन्हें उपयुक्त सिफारिशों के तहत उपयोग करने की आवश्यकता होती है।</string>
+
+    <string name="hindi_myth_title9">क्या निमोनिया के टीके नए कोरोनावायरस से आपकी रक्षा करते हैं?</string>
+    <string name="hindi_myth_desc9">नहीं, निमोनिया के टीके, जैसे न्यूमोकोकल वैक्सीन और हीमोफिलस इन्फ्लुएंजा Type B (Hib) वैक्सीन, नए कोरोनावायरस से सुरक्षा प्रदान नहीं करते हैं।\n
+        \nयह वायरस इतना नया और अलग है कि इसे अपने टीके की जरूरत है। शोधकर्ता 2019-nCoV के खिलाफ एक टीका विकसित करने की कोशिश कर रहे हैं, और WHO उनके प्रयासों का समर्थन कर रहा है।\n
+        \nहालांकि ये टीके 2019-nCoV के खिलाफ प्रभावी नहीं हैं, लेकिन श्वसन संबंधी बीमारियों के टिके आपके स्वास्थ्य की रक्षा के लिए अत्यधिक अनुशंसित है।</string>
+
+    <string name="hindi_myth_title10">क्या नियमित रूप से खारा के साथ आपकी नाक को रिनिंग करने से नए कोरोनावायरस से संक्रमण को रोकने में मदद मिल सकती है?</string>
+    <string name="hindi_myth_desc10">नहीं। इसका कोई सबूत नहीं है कि नियमित रूप से खारा के साथ नाक को रगड़ने से लोगों को नए कोरोनावायरस से संक्रमण से बचाया जाता है।\n
+        \nकुछ सीमित सबूत हैं कि नियमित रूप से खारा के साथ नाक को रगड़ने से लोगों को सामान्य सर्दी से अधिक जल्दी ठीक होने में मदद मिल सकती है। हालांकि, नियमित रूप से नाक को साफ करने से श्वसन संक्रमण को रोकने के लिए नहीं दिखाया गया है।</string>
+
+    <string name="hindi_myth_title11">क्या लहसुन खाने से नए कोरोनावायरस से संक्रमण को रोकने में मदद मिल सकती है?</string>
+    <string name="hindi_myth_desc11">लहसुन एक स्वस्थ भोजन है जिसमें कुछ रोगाणुरोधी गुण हो सकते हैं। हालांकि, वर्तमान प्रकोप से कोई सबूत नहीं है कि लहसुन खाने से लोगों को नए कोरोनोवायरस से बचाया गया है।</string>
+
+    <string name="hindi_myth_title12">क्या नए कोरोनोवायरस सिर्फ बुजुर्गों को प्रभावित करते हैं, या युवक और बच्चों को भी प्रभावित करते हैं?</string>
+    <string name="hindi_myth_desc12">नए कोरोनोवायरस (2019-nCoV) से सभी उम्र के लोग संक्रमित हो सकते हैं। बुजुर्गों, और पहले से मौजूद चिकित्सा स्थितियों (जैसे अस्थमा, मधुमेह, हृदय रोग) के लोग वायरस से गंभीर रूप से बीमार हो रहे हैं ।\n
+        \nWHO सभी उम्र के लोगों को सलाह देता है कि वे खुद को वायरस से बचाने के लिए कदम उठाएं, उदाहरण के लिए अच्छे हाथ की स्वच्छता और अच्छे श्वसन स्वच्छता का पालन करें।</string>
+
+    <string name="hindi_myth_title13">क्या एंटीबायोटिक्स नए कोरोनोवायरस को रोकने और इलाज में प्रभावी हैं?</string>
+    <string name="hindi_myth_desc13">नहीं, एंटीबायोटिक्स केवल जीवाणु के खिलाफ काम करते हैं, ना  की वायरस।\n
+        \nनया कोरोनावायरस (2019-nCoV) एक वायरस है और इसलिए, एंटीबायोटिक्स का उपयोग रोकथाम या उपचार के साधन के रूप में नहीं किया जाना चाहिए।\n
+        \nहालांकि, अगर आपको 2019-nCoV के लिए अस्पताल में भर्ती कराया गया है, तो आपको एंटीबायोटिक्स प्राप्त हो सकते हैं क्योंकि बैक्टीरिया का सह-संक्रमण संभव है।</string>
+
+    <string name="hindi_myth_title14">क्या नए कोरोनोवायरस को रोकने या उसका इलाज करने के लिए कोई विशिष्ट दवाएं हैं?</string>
+    <string name="hindi_myth_desc14">अभी तक, नए कोरोनावायरस (2019-nCoV) को रोकने या उसके इलाज के लिए कोई विशिष्ट दवा निर्माण नहीं किया गया है।\n
+        \nहालांकि, वायरस से संक्रमित लोगों को लक्षणों से राहत और उपचार के लिए उचित देखभाल प्राप्त करनी चाहिए, और गंभीर बीमारी वाले लोगों को अनुकूलित सहायक देखभाल प्राप्त करनी चाहिए। कुछ विशिष्ट उपचारों की जांच चल रही है, और नैदानिक ​​परीक्षणों के माध्यम से परीक्षण किया जाएगा। WHO एक सीमा या भागीदारों के साथ अनुसंधान और विकास के प्रयासों में तेजी लाने में मदद कर रहा है।</string>
+
+
+    <!--masks-->
+    <string name="mask_title1">When to use a mask?</string>
+    <string name="myask_desc1">• If you are healthy, you only need to wear a mask if you are taking care of a person with suspected 2019-nCoV infection.\n
+        \n• Wear a mask if you are coughing or sneezing.\n
+        \n• Masks are effective only when used in combination with frequent hand-cleaning with alcohol-based hand rub or soap and water.\n
+        \n• If you wear a mask, then you must know how to use it and dispose of it properly.</string>
+
+    <string name="mask_title2">When and how to wear medical masks to protect against coronavirus?</string>
+    <string name="myask_desc2">• Before putting on a mask, clean hands with alcohol-based hand rub or soap and water.\n
+        \n• Cover mouth and nose with mask and make sure there are no gaps between your face and the mask.\n
+        \n• Avoid touching the mask while using it; if you do, clean your hands with alcohol-based hand rub or soap and water.\n
+        \n• Replace the mask with a new one as soon as it is damp and do not re-use single-use masks.\n
+        \n• To remove the mask: Remove it from behind (do not touch the front of mask); discard immediately in a closed bin; clean hands with alcohol-based hand rub or soap and water.</string>
+
+    <string name="hindi_mask_title1">मास्क का उपयोग कब करें?</string>
+    <string name="hindi_myask_desc1">• यदि आप स्वस्थ हैं, तो आपको सिर्फ तभी मास्क पहनना होगा, जब आप किसी ऐसे व्यक्ति की देखभाल कर रहे हैं जिसके पास COVID-19 संक्रमण है।\n
+        \n• खांसने या छींकने पर मास्क पहनें।\n
+        \n• मास्क केवल तभी प्रभावी होते हैं जब अल्कोहल-आधारित सैनिटाइजर या साबुन और पानी के साथ लगातार हाथ-सफाई किया जाये।\n
+        \n• यदि आप एक मास्क पहनते हैं, तो आपको पता होना चाहिए कि इसका उपयोग कैसे करना है और इसे ठीक से कैसे निपटाना है।</string>
+
+    <string name="hindi_mask_title2">कोरोनोवायरस से बचाव के लिए मेडिकल मास्क कब और कैसे पहनना है?</string>
+    <string name="hindi_myask_desc2">• मास्क लगाने से पहले, अल्कोहल-आधारित सैनिटाइजर या साबुन और पानी से हाथ साफ करें।\n
+        \n• मुंह और नाक को मास्क से ढकें और सुनिश्चित करें कि आपके चेहरे और मास्क के बीच कोई गैप न हो।\n
+        \n• उपयोग करते समय मास्क को छूने से बचें। यदि आप ऐसा करते हैं, तो अपने हाथों को अल्कोहल-आधारित सैनिटाइजर या साबुन और पानी से साफ करें।\n
+        \n• जैसे ही मास्क नम हो जाये, उसे तुरंत बदलें और सिंगल-यूज़ मास्क का दोबारा इस्तेमाल न करें।\n
+        \n• मास्क हटाने के लिए: मास्क को पीछे से हटाए (मास्क के सामने वाले हिस्से को न छुएं) और तुरंत कूड़ेदान में डाल दें, फिर अल्कोहल-आधारित सैनिटाइजर या साबुन और पानी से हाथ साफ करें।</string>
+
+
+    <!--Warning-->
+    <string name="warning">कोरोना वायरस से बचने के लिए:-\n
+\n• घर में रहें।
+\n• घर वालों के साथ गप्पे मारें।
+\n• नियमित रूप से हाथों की सफाई करें तथा चेहरे को ना छूने की आदत डालें।
+\n• MOVIES BUDDY APP डाउनलोड करें तथा मुफ्त में फ़िल्में देखें।
+\n• संगीत सुनें या PUBG खेलें।
+\n• कुछ भी कीजिये, किन्तु घर से बाहर ना निकलें।</string>
+
+
+    <string name="warning_english">To Safe Yoursef From Coronavirus: -\n
+\n• Stay At Home.
+\n• Gossip With Family.
+\n• Clean Hands Regularly And Make a Habit Of Not Touching The Face.
+\n• Download MOVIES BUDDY APP And Watch Movies For Free.
+\n• Listening Music Or Play PUBG.
+\n• Do Anything, But Do Not Get Out From The Home.</string>
+
+
+    <!--Copyright-->
+    <string name="copyright_title1">Statistics Copyright</string>
+
+    <string name="copyright_desc1">
+
+        GNU GENERAL PUBLIC LICENSE\n
+         Version 3, 29 June 2007\n\n
+
+ Copyright &#169; 2007 Free Software Foundation, Inc. <a> https://fsf.org</a>
+ Everyone is permitted to copy and distribute verbatim copies
+ of this license document, but changing it is not allowed.\n\n
+
+                            Preamble\n\n
+
+  The GNU General Public License is a free, copyleft license for
+software and other kinds of works.\n\n
+
+  The licenses for most software and other practical works are designed
+to take away your freedom to share and change the works.  By contrast,
+the GNU General Public License is intended to guarantee your freedom to
+share and change all versions of a program&#8212;&#8212;to make sure it remains free
+software for all its users.  We, the Free Software Foundation, use the
+GNU General Public License for most of our software; it applies also to
+any other work released this way by its authors.  You can apply it to
+your programs, too.\n\n
+
+  When we speak of free software, we are referring to freedom, not
+price.  Our General Public Licenses are designed to make sure that you
+have the freedom to distribute copies of free software (and charge for
+them if you wish), that you receive source code or can get it if you
+want it, that you can change the software or use pieces of it in new
+free programs, and that you know you can do these things.\n\n
+
+  To protect your rights, we need to prevent others from denying you
+these rights or asking you to surrender the rights.  Therefore, you have
+certain responsibilities if you distribute copies of the software, or if
+you modify it: responsibilities to respect the freedom of others.\n\n
+
+  For example, if you distribute copies of such a program, whether
+gratis or for a fee, you must pass on to the recipients the same
+freedoms that you received.  You must make sure that they, too, receive
+or can get the source code.  And you must show them these terms so they
+know their rights.\n\n
+
+  Developers that use the GNU GPL protect your rights with two steps:
+(1) assert copyright on the software, and (2) offer you this License
+giving you legal permission to copy, distribute and/or modify it.\n\n
+
+  For the developers\' and authors\' protection, the GPL clearly explains
+that there is no warranty for this free software.  For both users\' and
+authors\' sake, the GPL requires that modified versions be marked as
+changed, so that their problems will not be attributed erroneously to
+authors of previous versions.\n\n
+
+  Some devices are designed to deny users access to install or run
+modified versions of the software inside them, although the manufacturer
+can do so.  This is fundamentally incompatible with the aim of
+protecting users\' freedom to change the software.  The systematic
+pattern of such abuse occurs in the area of products for individuals to
+use, which is precisely where it is most unacceptable.  Therefore, we
+have designed this version of the GPL to prohibit the practice for those
+products.  If such problems arise substantially in other domains, we
+stand ready to extend this provision to those domains in future versions
+of the GPL, as needed to protect the freedom of users.\n\n
+
+  Finally, every program is threatened constantly by software patents.
+States should not allow patents to restrict development and use of
+software on general&#8212;purpose computers, but in those that do, we wish to
+avoid the special danger that patents applied to a free program could
+make it effectively proprietary.  To prevent this, the GPL assures that
+patents cannot be used to render the program non-free.\n\n
+
+  The precise terms and conditions for copying, distribution and
+modification follow.\n\n
+
+    </string>
+
+    <string name="copyright_title2">Advice Copyright</string>
+    <string name="copyright_desc2">WHO (World Health Organization)\n
+    <a>https://www.who.int/emergencies/diseases/novel-coronavirus-2019</a></string>
+</resources>

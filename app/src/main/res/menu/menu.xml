@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+    <item
+        android:id="@+id/warning"
+        android:icon="@drawable/ic_alert"
+        android:title="" />
+
+    <item
+        android:id="@+id/search"
+        android:icon="@drawable/ic_magnifier"
+        android:title="" />
+
+    <item
+        android:id="@+id/advice"
+        android:icon="@drawable/ic_question"
+        android:title="" />
+
+    <item
+        android:id="@+id/setting"
+        android:icon="@drawable/ic_magnifier"
+        android:title="" />
+</menu>

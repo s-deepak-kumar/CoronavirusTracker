@@ -1,0 +1,234 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+
+    android:paddingRight="15dp"
+    android:paddingLeft="15dp">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="?attr/actionBarSize"
+            android:gravity="center|left">
+
+            <ImageButton
+                android:id="@+id/back"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:background="@drawable/ic_left" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="SETTINGS"
+                android:fontFamily="@font/acme"
+                android:textColor="@color/colorPrimary"
+                android:textSize="20dp"
+                android:layout_marginLeft="20dp"
+                android:textStyle="bold" />
+
+        </LinearLayout>
+    </LinearLayout>
+
+    <!--<ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:scrollbars="none">-->
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1"
+        android:orientation="vertical"
+        android:gravity="center">
+
+        <ImageView
+            android:id="@+id/logo"
+            android:layout_width="100dp"
+            android:layout_height="100dp"
+            android:src="@mipmap/logo_ct"/>
+
+        <TextView
+            android:id="@+id/appname"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textColor="@color/colorPrimary"
+            android:text="CORONAVIRUS\nTRACKER"
+            android:gravity="center"
+            android:fontFamily="@font/acme"
+            android:textStyle="bold"
+            android:textSize="23sp"
+            />
+
+        <!--<LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center">
+
+            <ImageButton
+                android:id="@+id/facebook"
+                android:layout_width="35dp"
+                android:layout_height="35dp"
+                android:src="@drawable/ic_facebook"
+                android:background="@drawable/shadow_box"
+                android:padding="9dp"/>
+
+            <ImageButton
+                android:id="@+id/instagram"
+                android:layout_width="35dp"
+                android:layout_height="35dp"
+                android:src="@drawable/ic_instagram"
+                android:background="@drawable/shadow_box"
+                android:padding="9dp"
+                android:layout_marginLeft="10dp"/>
+
+            <ImageButton
+                android:id="@+id/twitter"
+                android:layout_width="35dp"
+                android:layout_height="35dp"
+                android:src="@drawable/ic_twitter"
+                android:background="@drawable/shadow_box"
+                android:padding="9dp"
+                android:layout_marginLeft="10dp"/>
+
+        </LinearLayout>-->
+
+        <TextView
+            android:id="@+id/version"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="v1.0.0"
+            android:fontFamily="@font/acme"
+            android:textStyle="bold"
+            android:textSize="13dp"
+            android:textColor="#66000000"/>
+
+    </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical"
+                android:gravity="bottom">
+
+        <LinearLayout
+            android:id="@+id/shareContainer"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:padding="10dp"
+            android:background="@drawable/close_btn_bk">
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Share App"
+                android:textSize="18dp"
+                android:fontFamily="@font/acme"
+                android:textStyle="bold"
+                android:textColor="#ffffff"
+                android:drawableLeft="@drawable/ic_share"
+                android:drawableRight="@drawable/ic_gross"
+                android:drawablePadding="10dp">
+
+            </TextView>
+
+        </LinearLayout>
+
+            <LinearLayout
+                android:id="@+id/rateContainer"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:padding="10dp"
+                android:background="@drawable/close_btn_bk"
+                android:layout_marginTop="10dp">
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="Rate App"
+                    android:textSize="18dp"
+                    android:fontFamily="@font/acme"
+                    android:textStyle="bold"
+                    android:textColor="#ffffff"
+                    android:drawableLeft="@drawable/ic_star"
+                    android:drawableRight="@drawable/ic_gross"
+                    android:drawablePadding="10dp">
+
+                </TextView>
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:id="@+id/copyrightContainer"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:padding="10dp"
+                android:background="@drawable/close_btn_bk"
+                android:layout_marginTop="10dp">
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="Copyright"
+                    android:textSize="18dp"
+                    android:fontFamily="@font/acme"
+                    android:textStyle="bold"
+                    android:textColor="#ffffff"
+                    android:drawableLeft="@drawable/ic_copyright"
+                    android:drawableRight="@drawable/ic_gross"
+                    android:drawablePadding="10dp">
+
+                </TextView>
+
+            </LinearLayout>
+
+                <LinearLayout
+                    android:id="@+id/helplineContainer"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:padding="10dp"
+                    android:background="@drawable/close_btn_bk"
+                    android:layout_marginTop="10dp">
+
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:text="Emergency Helpline"
+                        android:textSize="18dp"
+                        android:fontFamily="@font/acme"
+                        android:textStyle="bold"
+                        android:textColor="#ffffff"
+                        android:drawableLeft="@drawable/ic_phone"
+                        android:drawableRight="@drawable/ic_gross"
+                        android:drawablePadding="10dp">
+
+                    </TextView>
+
+                </LinearLayout>
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:gravity="center"
+                android:layout_marginBottom="20dp"
+                android:layout_marginTop="10dp"
+                android:fontFamily="@font/acme"
+                android:textColor="#66000000"
+                android:textStyle="bold"
+                android:text="---- Please Stay At Home, Be Safe ----\nCentral Helpline Number For COVID-19:\n+91-11-23978046"/>
+        </LinearLayout>
+        </LinearLayout>
+
+</LinearLayout>

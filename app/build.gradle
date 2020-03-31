@@ -1,0 +1,60 @@
+apply plugin: 'com.android.application'
+apply plugin: 'com.google.gms.google-services'
+
+android {
+    compileSdkVersion 29
+    buildToolsVersion "29.0.3"
+
+    defaultConfig {
+        applicationId "com.sundarinfotech.coronavirustracker"
+        minSdkVersion 19
+        targetSdkVersion 29
+        versionCode 1
+        versionName "1.0.0"
+        testInstrumentationRunner "androidx.test.runner.AndroidJUnitRunner"
+        setProperty("archivesBaseName", rootProject.name + "-$versionCode" + "-$versionName")
+    }
+
+    buildTypes {
+        release {
+            minifyEnabled false
+            proguardFiles getDefaultProguardFile('proguard-android-optimize.txt'), 'proguard-rules.pro'
+            buildConfigField("String", "BASE_URL", "\"https://corona.lmao.ninja/\"")
+        }
+        debug {
+            buildConfigField "String", "BASE_URL", "\"https://corona.lmao.ninja/\""
+        }
+    }
+
+    compileOptions {
+        sourceCompatibility JavaVersion.VERSION_1_8
+        targetCompatibility JavaVersion.VERSION_1_8
+    }
+
+}
+
+dependencies {
+    implementation fileTree(dir: 'libs', include: ['*.jar'])
+
+    implementation 'androidx.appcompat:appcompat:1.1.0'
+    implementation 'androidx.constraintlayout:constraintlayout:1.1.3'
+    implementation 'com.google.firebase:firebase-core:17.2.3'
+    testImplementation 'junit:junit:4.12'
+    androidTestImplementation 'androidx.test.ext:junit:1.1.1'
+    androidTestImplementation 'androidx.test.espresso:espresso-core:3.2.0'
+    implementation 'com.google.android.material:material:1.1.0-alpha09'
+    implementation "androidx.cardview:cardview:1.0.0"
+    implementation 'androidx.recyclerview:recyclerview:1.1.0'
+    implementation 'androidx.legacy:legacy-support-v4:1.0.0'
+    implementation 'com.squareup.retrofit2:retrofit:2.7.2'
+    implementation 'com.squareup.retrofit2:converter-gson:2.7.1'
+    //implementation 'com.emredavarci:floatingactionmenu:1.0.0'
+    implementation 'joda-time:joda-time:2.10.5'
+    compileOnly "org.projectlombok:lombok:1.18.12"
+    annotationProcessor 'org.projectlombok:lombok:1.18.12'
+    implementation 'com.github.KaKaVip:Android-Flag-Kit:v0.1'
+    implementation 'com.facebook.android:audience-network-sdk:5.+'
+    implementation 'com.tuyenmonkey:mkloader:1.4.0'
+    implementation project(path: ':countrylist')
+    implementation project(path: ':floatingactionmenu')
+}

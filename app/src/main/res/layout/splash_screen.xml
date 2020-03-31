@@ -1,0 +1,127 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/colorPrimary">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1"
+        android:orientation="vertical"
+        android:gravity="right">
+
+        <!--<TextView
+            android:id="@+id/skip_title"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:background="@drawable/skip_bk"
+            android:text="Wait 3 Seconds"
+            android:paddingTop="5dp"
+            android:paddingBottom="5dp"
+            android:paddingRight="20dp"
+            android:paddingLeft="20dp"
+            android:layout_marginTop="15dp"
+            android:layout_marginRight="15dp"
+            android:textColor="#ffffff"
+            android:textStyle="bold"
+            android:visibility="gone"/>-->
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:gravity="center">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:gravity="center">
+
+            <ImageView
+                android:layout_width="50dp"
+                android:layout_height="50dp"
+                android:src="@mipmap/logo_ct"
+                android:layout_gravity="center_vertical"
+                android:layout_marginTop="2dp"/>
+
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:orientation="vertical"
+                android:layout_marginLeft="10dp">
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Coronavirus Tracker"
+                    android:fontFamily="@font/acme"
+                    android:textStyle="bold"
+                    android:textSize="24dp"
+                    android:textColor="@color/white"
+                    />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Real Statistics Of COVID-19 Provider"
+                    android:textStyle="bold"
+                    android:fontFamily="@font/acme"
+                    android:textSize="13.5dp"
+                    android:textColor="#80FFFFFF" />
+
+            </LinearLayout>
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:orientation="vertical"
+            android:layout_marginTop="100dp"
+            android:layout_marginBottom="20dp">
+
+            <com.tuyenmonkey.mkloader.MKLoader
+                android:id="@+id/loadingprogress"
+                android:layout_width="40dp"
+                android:layout_height="40dp"
+                app:mk_type="TwinFishesSpinner"
+                app:mk_color="@color/white"
+                />
+
+            <!--<TextView
+                android:id="@+id/checkupdates"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="checking for updates"
+                android:textStyle="bold"
+                android:fontFamily="@font/acme"
+                android:textSize="18dp"
+                android:textColor="#FFFFFF"
+                android:layout_marginLeft="10dp"
+                />-->
+
+            <TextView
+                android:id="@+id/textCaption"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="PLEASE STAY AT HOME, BE SAFE "
+                android:fontFamily="@font/acme"
+                android:textColor="#80FFFFFF"
+                android:gravity="center"
+                android:textSize="16sp"
+                android:textStyle="bold|italic"
+                android:layout_marginTop="15dp"
+                />
+
+        </LinearLayout>
+
+    </LinearLayout>
+
+</LinearLayout>

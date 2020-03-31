@@ -1,0 +1,152 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <FrameLayout
+        android:layout_width="match_parent"
+        android:layout_height="210dp">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="195dp"
+        android:orientation="vertical"
+        android:paddingRight="15dp"
+        android:paddingLeft="15dp"
+        android:background="@color/colorPrimary">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="?attr/actionBarSize"
+            android:gravity="center|left">
+
+            <ImageButton
+                android:id="@+id/back"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:background="@drawable/ic_left"
+                android:backgroundTint="@color/white"/>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="ADVICES"
+                android:fontFamily="@font/acme"
+                android:textColor="@color/white"
+                android:textSize="20dp"
+                android:layout_marginLeft="20dp"
+                android:textStyle="bold" />
+
+        </LinearLayout>
+    </LinearLayout>
+
+        <LinearLayout
+            android:id="@+id/myth"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:padding="10dp"
+            android:background="@drawable/shadow_box">
+
+            <TextView
+                android:id="@+id/myth_text"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="काल्पनिक तथ्य "
+                android:textSize="18dp"
+                android:fontFamily="@font/acme"
+                android:textStyle="bold"
+                android:textColor="#ffffff"
+                android:drawableRight="@drawable/ic_gross"
+                android:drawablePadding="10dp">
+
+            </TextView>
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:id="@+id/maskContainer"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:padding="10dp"
+            android:layout_marginTop="10dp"
+            android:background="@drawable/shadow_box">
+
+            <TextView
+                android:id="@+id/mask_text"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="मास्क का उपयोग कब और कैसे करें?"
+                android:textSize="18dp"
+                android:fontFamily="@font/acme"
+                android:textStyle="bold"
+                android:textColor="#ffffff"
+                android:drawableRight="@drawable/ic_gross"
+                android:drawablePadding="10dp">
+
+            </TextView>
+
+        </LinearLayout>
+
+    </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_gravity="bottom"
+            android:gravity="center"
+            android:paddingRight="15dp"
+            android:paddingLeft="15dp">
+
+            <Button
+                android:id="@+id/hindi"
+                android:layout_width="100dp"
+                android:layout_height="35dp"
+                android:paddingRight="10dp"
+                android:paddingLeft="10dp"
+                android:background="@drawable/btn_bk"
+                android:text="हिन्दी"
+                android:fontFamily="@font/acme"
+                android:textStyle="bold"
+                android:textColor="@color/white" />
+
+            <Button
+                android:id="@+id/english"
+                android:layout_width="100dp"
+                android:layout_height="35dp"
+                android:paddingRight="10dp"
+                android:paddingLeft="10dp"
+                android:background="@drawable/active_bk"
+                android:text="ENGLISH"
+                android:fontFamily="@font/acme"
+                android:layout_marginLeft="15dp"
+                android:textStyle="bold"
+                android:textColor="@color/white" />
+
+        </LinearLayout>
+
+    </FrameLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        android:paddingLeft="15dp"
+        android:paddingRight="15dp">
+
+        <androidx.recyclerview.widget.RecyclerView
+            android:id="@+id/recyleview"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            />
+
+    </LinearLayout>
+
+</LinearLayout>
