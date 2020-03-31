@@ -20,7 +20,7 @@ public class CoronaVirus implements Serializable {
     public CoronaVirus(String country, String cases, String todayCases, String deaths, String todayDeaths, String recovered, String active, String critical, String casesPerOneMillion) {
         this.country = country;
         this.cases = cases;
-        this.todayCases = todayCases;
+        this.todayCases =todayCases;
         this.deaths = deaths;
         this.todayDeaths = todayDeaths;
         this.recovered = recovered;
